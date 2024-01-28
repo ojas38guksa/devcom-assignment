@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: black;
+    overflow-x:hidden;
+}
+
+.card {
+  background-color: #2259bfbb;
+  color: #78bdd8;
+  border-radius: 25px;
+  /*   transform: translate(0, 0); */
+  box-shadow: 0 4px 10px #070509;
+  transition: 250ms;
+  z-index: 1;
+  position: relative;
+  font-family: "Nunito", "Roboto", sans-serif;
+  display: absolute;
+  justify-content: center;
+  padding: 4vh;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width:846px){
+    img{
+        width: 100vw;
+        overflow-x:hidden;
+    }
+    .carousel{
+      display: none;
+    }
+    .slide{
+        height: 100px;
+    }
+    nav{
+        font-size:10px;
+    }
+    .dropdown>a{
+        font-size:10px;}
+    .heading{
+      font-size: 10px;
+    }
+    .About{
+      position: relative;
+      top:-400px;
+    }
+    .card{
+      padding: 2vh;
+      font-size: 11px;
+    }
+    h1{
+      font-size: 50px;
+    }
+  }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+  .card.about{
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    filter: invert(1);
+  }
+
+  .About{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:-400px;
+  }
+  .aboutmediv{
+    align-items: center;
+    height: 100vw;
+  }
+  .aboutmediv>img{
+    width:100%;
+    z-index: -1;
+  }
+  .heading{
+    font-size: 70px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+  .heading2{
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wo::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(218, 97%, 35%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  .wo::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .wo:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .wo {
+    position: relative;
+    font-size: 5rem;
+  }
+
+  .tt3::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(0, 94%, 35%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  .tt3::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .tt3:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .tt3 {
+    position: relative;
+    font-size: 5rem;
+  }
+
+  .bb2::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(38, 96%, 41%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  .bb2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .bb2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .bb2 {
+    position: relative;
+    font-size: 5rem;
+  }
+
+  .com2::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(71, 95%, 46%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  .com2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .com2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .com2 {
+    position: relative;
+    font-size: 5rem;
+  }
+
+  .heading3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.7;
+  }
+  .tt{
+    text-align:center;
+    position:relative;
+    top:-350px;
+  }
+
+  .homepagediv.card{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+  }
